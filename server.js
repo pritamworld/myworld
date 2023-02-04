@@ -7,5 +7,10 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 });
 
+
+app.get("/hello", (req, res) => {
+    res.send("Hello Luca!");
+});
+
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT);
